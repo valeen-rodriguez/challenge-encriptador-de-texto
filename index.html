@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/02b5c93e96.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-img-textarea-p-button">
+
+            <!--LOGO-->
+            <div class="logo-container">
+                <img src="img/logo.png" class="logo">
+            </div>
+
+            <!--TEXT INSERTED-->
+            <div class="container-input-text">
+            <textarea id="id-textarea-placeholder" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <!--BUTTONS AND WARNING-->
+            <div class="buttons-p">
+            <p class="p-i-warning-message">
+                <i class="fa-solid fa-circle-info"></i>
+                Solo letras minúsculas y sin acentos
+            </p>
+            <div class="buttons">
+                <button id="id-button-encrypt">Encriptar</button>
+                <button id="id-button-decrypt">Desencriptar</button>
+            </div>
+            </div>
+        </div>
+
+        <!-- ENCRYPTED AND DECRYPTED MESSAGE -->
+        <div class="message-div-img-p-button">
+            <div class="message-p" id="message-p">
+                <img id="person-image" src="img/person.png" alt="Illustration">
+                <p id="p-null-text"><span>Ningún mensaje fue encontrado</span><br>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button id="id-button-copy" style="display: none;">Copiar</button>
+        </div>
+    </div>
+
+    <!--SCRIPT JS-->
+    <script src="js/script.js"></script>
+</body>
+</html>
