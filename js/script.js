@@ -51,7 +51,7 @@ function toggleCopyButton() {
     let outputText = document.getElementById('p-null-text').innerText.trim();
     let copyButton = document.getElementById('id-button-copy');
     
-    if (outputText && outputText !== 'Ningún mensaje fue encontrado\nIngresa el texto que desees encriptar o desencriptar.') {
+    if (outputText && outputText !== `<span>Ningún mensaje fue encontrado</span><br>Ingresa el texto que desees encriptar o desencriptar.`) {
         copyButton.style.display = 'block';
     } else {
         copyButton.style.display = 'none';
