@@ -1,8 +1,20 @@
 # Challenge Encriptador de Texto - Alura ONE
 
 <p align="center">
-     <img width="800" height="400" src="img/web_pagina.png">
+     <a href="https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/"><img width="800" height="400" src="img/web_pagina.png"></a>
 </p>
+
+<div align="center">
+
+[Demo | Github Pages](https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/)
+     
+</div>
+
+---
+
+## 🚀 Descripción
+
+Challenge de Alura que se basa en la encriptación de textos, asi poder intercambiar mensajes secretos con otras personas y que sepan el secreto de la encriptación utilizada.
 
 ---
 
@@ -50,12 +62,4 @@ gaitober" => "gato"
 
 ### Extras:
 
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
-
----
-
-## 📖 Deploy
-
-Se puede acceder a la página desde celular, tablet o computadora apretando [aquí](https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/)
-
----
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ` ctrl+C ` o de la opción "copiar" del menú de las aplicaciones.

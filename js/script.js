@@ -1,15 +1,15 @@
-/*encriptar texto usando patrones específicos*/
+/* encriptar texto usando patrones específicos */
 function encriptar() {
     let texto = document.getElementById("id-textarea-placeholder").value;
     let outputText = document.getElementById("p-null-text");
     let outputImage = document.getElementById("person-image");
 
     let textoCifrado = texto
-    .replace(/e/gi, "enter")
-    .replace(/i/gi, "imes")
-    .replace(/a/gi, "ai")
-    .replace(/o/gi, "ober")
-    .replace(/u/gi, "ufat");
+        .replace(/a/g, "ai")
+        .replace(/e/g, "enter")
+        .replace(/i/g, "imes")
+        .replace(/o/g, "ober")
+        .replace(/u/g, "ufat");
 
     if (texto.length !== 0) {
         outputText.innerHTML = `${textoCifrado}`;
@@ -29,11 +29,11 @@ function desencriptar() {
     let outputImage = document.getElementById("person-image");
 
     let textoDesencriptado = texto
-    .replace(/enter/gi, "e")
-    .replace(/imes/gi, "i")
-    .replace(/ai/gi, "a")
-    .replace(/ober/gi, "o")
-    .replace(/ufat/gi, "u");
+        .replace(/ai/g, "a")
+        .replace(/enter/g, "e")
+        .replace(/imes/g, "i")
+        .replace(/ober/g, "o")
+        .replace(/ufat/g, "u");
 
     if (texto.length !== 0) {
         outputText.innerHTML = `${textoDesencriptado}`;
@@ -48,7 +48,7 @@ function desencriptar() {
 
 /*mostrar u ocultar el botón de copiar según el contenido de p-null-text*/
 function toggleCopyButton() {
-    let outputText = document.getElementById('p-null-text').innerText.trim();
+    let outputText = document.getElementById('p-null-text').innerHTML.trim();
     let copyButton = document.getElementById('id-button-copy');
     
     if (outputText && outputText !== `<span>Ningún mensaje fue encontrado</span><br>Ingresa el texto que desees encriptar o desencriptar.`) {

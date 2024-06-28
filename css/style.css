@@ -10,7 +10,20 @@ body {
     background-color: #f4f7fe;
     height: 100vh;
     margin: 0;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-container {
+    
+}
+
+.inner-container {
+
+}
+
+.header, .footer {
+
 }
 
 ::-webkit-scrollbar {
@@ -29,6 +42,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    flex: 1;
 }
 
 span {
@@ -115,7 +129,8 @@ button {
 }
 
 .message-div-img-p-button {
-    margin-top: 35px;
+    /*margin-top: 35px;*/
+    margin-bottom: 30px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -163,7 +178,8 @@ img {
     }
 
     .message-div-img-p-button {
-        margin-top: 35px;
+        /*margin-top: 35px;*/
+        margin-bottom: 30px;
         height: auto;
         padding: 20px;
         background-color: #ffffff;
@@ -180,14 +196,15 @@ img {
         border-radius: 10px;
         width: 90%;
         max-width: 1200px;
+        position: relative;
     }
 
     .container-img-textarea-p-button {
-        gap: 5%;
+        gap: 13%;
         width: 60%;
         display: flex;
         flex-direction: column;
-        margin-right: 20px;
+        margin-right: 29px;
     }
 
     #id-button-copy {
@@ -211,6 +228,7 @@ img {
         background-color: #f4f7fe;
         outline: none;
         padding: 10px;
+        margin-top: 30px;
         box-sizing: border-box;
     }
 
@@ -222,6 +240,10 @@ img {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 20px;
         align-items: center;
+    }
+
+    .buttons{
+        gap: 50px;
     }
 
     .buttons-p button {
@@ -237,7 +259,8 @@ img {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 50px;
+        margin-bottom: 0px;
         overflow: auto;
         padding-top: 20px;
     }
@@ -261,13 +284,74 @@ img {
         margin-top: 0;
     }
 
-    .logo {
-        width: 17px;
-        height: auto;
-        margin-bottom: 31px;
+    .logo-container {
+        position: fixed;
+        top: 20px;
+        left: 20px;
     }
 
-    .logo-container {
-        margin-left: -100px;
+    .logo {
+        width: 20px;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 10px;
     }
+
+    .outer-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .inner-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .header, .footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(216, 222, 255);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.2s ease-out;
+}
+
+.footer a:hover {
+    color: #0A3871;
+}
+
+.devicon-linkedin-plain{
+    color: #666;
+    font-size: 20px;
+    vertical-align: bottom;
+    transition: color 0.2s ease-out;
+}
+
+.devicon-linkedin-plain:hover{
+    color: #0A3871;
 }
