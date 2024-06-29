@@ -342,30 +342,37 @@ img {
 }
 
 .footer p {
-    margin: 0;
+    margin: 1px;
     color: #666;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer a {
     font-weight: bold;
     text-decoration: none;
     color: #666;
-    font-size: 14px;
-    transition: color 0.2s ease-out;
+    font-size: 13px;
 }
 
-.footer a:hover {
-    color: #0A3871;
-}
-
-.devicon-linkedin-plain{
+.fa-linkedin{
+    border-radius: 100px;
     color: #666;
-    font-size: 20px;
+    font-size: 17px;
     vertical-align: bottom;
     transition: color 0.2s ease-out;
 }
 
-.devicon-linkedin-plain:hover{
+.fa-linkedin:hover{
     color: #0A3871;
+}
+
+.fa-square-github{
+    color: #666;
+    font-size: 17px;
+    vertical-align: bottom;
+    transition: color 0.2s ease-out;
+}
+
+.fa-square-github:hover{
+    color: black;
 }
