@@ -5,9 +5,9 @@ function encriptar() {
     let outputImage = document.getElementById("person-image");
 
     let textoCifrado = texto
-        .replace(/a/g, "ai")
         .replace(/e/g, "enter")
         .replace(/i/g, "imes")
+        .replace(/a/g, "ai")
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
 
@@ -16,7 +16,7 @@ function encriptar() {
         outputImage.style.display = 'none';
     } else {
         outputText.innerHTML = `<span>Ningún mensaje fue encontrado</span><br>Ingresa el texto que desees encriptar o desencriptar.`;
-        outputImage.style.display = 'block';
+        outputImage.style.display = '';
     }
 
     toggleCopyButton();
@@ -29,9 +29,9 @@ function desencriptar() {
     let outputImage = document.getElementById("person-image");
 
     let textoDesencriptado = texto
-        .replace(/ai/g, "a")
         .replace(/enter/g, "e")
         .replace(/imes/g, "i")
+        .replace(/ai/g, "a")
         .replace(/ober/g, "o")
         .replace(/ufat/g, "u");
 
@@ -40,7 +40,7 @@ function desencriptar() {
         outputImage.style.display = 'none';
     } else {
         outputText.innerHTML = `<span>Ningún mensaje fue encontrado</span><br>Ingresa el texto que desees encriptar o desencriptar.`;
-        outputImage.style.display = 'block';
+        outputImage.style.display = '';
     }
 
     toggleCopyButton();

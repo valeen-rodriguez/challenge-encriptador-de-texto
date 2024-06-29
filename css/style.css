@@ -160,8 +160,15 @@ img {
     line-height: 1.5;
 }
 
+#person-image{
+    display: none;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
+    #person-image{
+        display: none;
+    }
     .buttons {
         flex-direction: row;
         gap: 10px;
@@ -246,6 +253,10 @@ img {
 
     .buttons{
         gap: 50px;
+    }
+
+    #person-image{
+        display: block;
     }
 
     .buttons-p button {
