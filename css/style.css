@@ -87,7 +87,7 @@ textarea:focus {
     font-size: 12px;
     margin: 10px 0;
     text-align: center;
-    color: #495057;
+    /*color: #495057;*/
 }
 
 .buttons {
@@ -216,18 +216,6 @@ img {
         margin-right: 29px;
     }
 
-    #id-button-copy {
-        margin-top: 20px;
-        padding: 12px 40px;
-        background-color: white;
-        color: #0A3871;
-        border: 1px solid #0A3871;
-        border-radius: 15px;
-        cursor: pointer;
-        font-size: 16px;
-        display: none;
-    }
-
     textarea {
         width: 100%;
         height: calc(100% - 20px);
@@ -331,6 +319,47 @@ img {
         width: 100%;
         text-align: center;
     }
+
+    #id-button-encrypt {
+        background-color: #0A3871;
+        color: #fff;
+        border: none;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    #id-button-encrypt:hover {
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.535);
+    }
+    
+    #id-button-decrypt {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        border: 1px solid #0A3871;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    #id-button-decrypt:hover {
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    #id-button-copy {
+        margin-top: 20px;
+        padding: 12px 40px;
+        background-color: white;
+        color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 16px;
+        display: none;
+        z-index: 1;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    
+    #id-button-copy:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+    }
 }
 
 /* Footer */
@@ -375,4 +404,22 @@ img {
 
 .fa-square-github:hover{
     color: black;
+}
+
+/* Validation */
+.p-i-warning-message {
+    color: #495057;;
+}
+
+.p-i-warning-message.warning {
+    color: red;
+    animation: error 0.1s linear 6;
+}
+
+@keyframes error {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
 }

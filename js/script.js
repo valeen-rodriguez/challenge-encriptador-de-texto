@@ -58,7 +58,7 @@ function toggleCopyButton() {
     }
 }
 
-/* se asegura que el botón de copiar esté oculto al cargar la página*/
+/*se asegura que el botón de copiar esté oculto al cargar la página*/
 toggleCopyButton();
 
 
