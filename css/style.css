@@ -130,6 +130,7 @@ button {
 
 .message-div-img-p-button {
     /*margin-top: 35px;*/
+    margin: 20px;
     margin-bottom: 30px;
     padding: 20px;
     background-color: #ffffff;
@@ -179,6 +180,7 @@ img {
 
     .message-div-img-p-button {
         /*margin-top: 35px;*/
+        margin: 20px;
         margin-bottom: 30px;
         height: auto;
         padding: 20px;
@@ -251,6 +253,7 @@ img {
     }
 
     .message-div-img-p-button {
+        margin: 0px;
         width: 25%;
         height: 500px;
         position: relative;
