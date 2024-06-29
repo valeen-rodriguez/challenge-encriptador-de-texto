@@ -4,21 +4,23 @@
      <a href="https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/"><img width="800" height="400" src="img/web_pagina.png"></a>
 </p>
 
+
+
 <div align="center">
 
-[Demo | Github Pages](https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/)
+[Demo | Github Pages](https://valeen-rodriguez.github.io/challenge-encriptador-de-texto/) 
      
 </div>
 
 ---
 
-## 🚀 Descripción
+## <img width="20" height="20" src="https://www.iconsdb.com/icons/preview/white/finish-flag-xxl.png" />&#8287; Descripción
 
 Challenge de Alura que se basa en la encriptación de textos, asi poder intercambiar mensajes secretos con otras personas y que sepan el secreto de la encriptación utilizada.
 
 ---
 
-## 💻 Lenguajes Utilizados
+## <img width="20" height="20" src="https://www.iconsdb.com/icons/preview/white/notebook-xxl.png" />&#8287; Lenguajes Utilizados
 
 <ul align="center" display="flex">
    <img src="https://skillicons.dev/icons?i=html&perline=1">
@@ -33,7 +35,7 @@ Challenge de Alura que se basa en la encriptación de textos, asi poder intercam
 
 ---
 
-## 🔑 Llaves de encriptacion
+## <img width="20" height="20" src="https://www.iconsdb.com/icons/preview/white/key-3-xxl.png" />&#8287; Llaves de encriptacion
 
 Las llaves de encriptacion solicitadas son las siguientes:
 
@@ -45,7 +47,7 @@ Las llaves de encriptacion solicitadas son las siguientes:
 
 ---
 
-## ✔️ Requisitos
+## <img width="20" height="20" src="https://www.iconsdb.com/icons/preview/white/clipboard-3-xxl.png" />&#8287; Requisitos
 
 - Debe funcionar solo con letras minúsculas.
 - No deben ser utilizados letras con acentos ni caracteres especiales.
